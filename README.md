@@ -1,3 +1,7 @@
+# Eclipse
+## Markdown Editor for Eclipse
+[Markdown Editor - http://winterwell.com/software/updatesite/](http://winterwell.com/software/updatesite/)
+
 # Markdown markup at work
 # First-level heading
 ## Second-level heading
@@ -30,7 +34,7 @@ two sentences and the break line in the middle
 
 * Another item
 
-*emphasis (italic)*  
+*emphasis (italic)*
 _emphasis (italic)_
 
 **strong emphasis (boldface)**  
