@@ -2,78 +2,25 @@
 
 ## Eclipse
 ### Markdown Editor for Eclipse
-[Markdown Editor - http://winterwell.com/software/updatesite/](http://winterwell.com/software/updatesite/)
+[Markdown Editor - http://winterwell.com/software/updatesite/](http://www.winterwell.com/software/markdown-editor.php)
 
 ### Perl Markdown Editor for Eclipse
+[Perl Editor and IDE for Eclipse version 0.5.x, stable - http://e-p-i-c.sf.net/updates](http://www.epic-ide.org/) 
+[Perl Editor and IDE for Eclipse version 0.6.x, testing - http://e-p-i-c.sf.net/updates/testing](http://www.epic-ide.org/)
 
+### Lua Development Tools
+[LDT - http://download.eclipse.org/koneki/releases/stable](http://www.eclipse.org/koneki/ldt/)
 
 ## Ubuntu
 ### Boot to Text Mode from GRUB (temporary)
+Checked for GRUB 2.0 and Ubuntu 12.04, 12.10, 13.04, 13.10 
 1. From grub menu press 'e'. 
-2. For Ubuntu 12.04 and later
-	1. Look for the line starting with 'linux /boot/...' and replace 'quiet splash' with 'text'.
+2. Look for the line starting with 'linux /boot/...' and replace 'quiet splash' with 'text'.
+3. Press Ctrl+X to boot. 
 
-# Markdown markup at work
-# First-level heading
-## Second-level heading
-### Third-level heading
-#### Fourth-level heading
+See additional information on [askubuntu.com](http://askubuntu.com/questions/16371/how-do-i-disable-x-at-boot-time-so-that-the-system-boots-in-text-mode)
 
-This is a paragraph. It has two sentences.
-
-This is another paragraph. It also has 
-two sentences.
-
-This is another paragraph. It also has  
-two sentences and the break line in the middle  
-(end a line with two or more spaces followed by a return)
-
-* An item in a bulleted (unordered) list
-    + A subitem, indented with 4 spaces
-* Another item in a bulleted list
-* Here's another item
-
-1. An item in an enumerated (ordered) list
-    1. A subitem, indented with 4 spaces
-2. Another item in an enumerated list
-3. Another item
-4. Yet another item
-
-* A list item
-
-    With multiple paragraphs
-
-* Another item
-
-*emphasis (italic)*
-_emphasis (italic)_
-
-**strong emphasis (boldface)**  
-__strong emphasis (boldface)__
-
-***very strong emphasis (italic and boldface)***  
-___very strong emphasis (italic and boldface)___
-
-
-Some text with `some code` inside
-
-Multiline code or longer pieces of code should be indented by four spaces.
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-> "This entire paragraph of text will be enclosed in an HTML blockquote element.
-Blockquote elements are reflowable. You may arbitrarily
-wrap the text to your liking, and it will all be parsed
-into a single blockquote element."
-
-### External links
-[Markdown](http://en.wikipedia.com/wiki/Markdown)
-
-### Horizontal rules
-* * *
-***
-*****
-- - -
----------------------------------------
+### Nvidia Graphics Driver
+1. First way
+    1. Download from Nvidia site 
+    http://ru.download.nvidia.com/XFree86/Linux-x86_64/XXX.YY/NVIDIA-Linux-x86_64-XXX.YY.run 
