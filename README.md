@@ -1,6 +1,17 @@
-# Eclipse
-## Markdown Editor for Eclipse
+# Tune Workspace
+
+## Eclipse
+### Markdown Editor for Eclipse
 [Markdown Editor - http://winterwell.com/software/updatesite/](http://winterwell.com/software/updatesite/)
+
+### Perl Markdown Editor for Eclipse
+
+
+## Ubuntu
+### Boot to Text Mode from GRUB (temporary)
+1. From grub menu press 'e'. 
+2. For Ubuntu 12.04 and later
+	1. Look for the line starting with 'linux /boot/...' and replace 'quiet splash' with 'text'.
 
 # Markdown markup at work
 # First-level heading
