@@ -13,7 +13,8 @@
 
 ## Ubuntu
 ### Boot to Text Mode from GRUB (temporary)
-Checked for GRUB 2.0 and Ubuntu 12.04, 12.10, 13.04, 13.10 
+Checked for GRUB 2.0 and Ubuntu 12.04, 12.10, 13.04, 13.10
+ 
 1. From grub menu press 'e'. 
 2. Look for the line starting with 'linux /boot/...' and replace 'quiet splash' with 'text'.
 3. Press Ctrl+X to boot. 
