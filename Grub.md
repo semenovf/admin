@@ -7,10 +7,11 @@
 ### Some usefull keys from '/etc/default/grub'
 
 * 'GRUB_DEFAULT'
-	The default menu entry. This may be a number (Nth entry in the generated menu)
-	or a title.
+
+The default menu entry. This may be a number (Nth entry in the generated menu)
+or a title.
 	
-	For example:
+For example:
 	
     menuentry 'Ubuntu' --class ubuntu {
     ...
