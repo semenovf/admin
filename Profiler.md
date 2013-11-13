@@ -2,17 +2,19 @@
 
 ### Installation
 
-* Valgrind 
+#### Valgrind 
 
-	$ sudo apt-get install valgrind
+    $ sudo apt-get install valgrind
 	
-* Graphviz (for _dot utility_) 
+#### Graphviz (for _dot utility_) 
 
-	$ sudo apt-get install graphviz
+    $ sudo apt-get install graphviz
 	
-* Gprof2dot 
+#### Gprof2dot 
 
 Get from [jrfonseca](http://code.google.com/p/jrfonseca/wiki/Gprof2Dot)
+
+    $ wget http://gprof2dot.jrfonseca.googlecode.com/git/gprof2dot.py
 
 ### Usage
 
