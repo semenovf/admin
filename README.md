@@ -33,32 +33,34 @@
     $ sudo tar -zxvf eclipse-PACKAGE.tar.gz -C /opt  
     $ cd /opt/eclipse  
     $ sudo bash  
-    \# echo "export PATH=\$PATH:`pwd`" >> /etc/profile  
+    \# echo "export PATH=\$PATH:\`pwd\`" >> /etc/profile  
     \# exit  
     $ tail /etc/profile  
 	
-3. If there is a problem with menu visibility look at (askubuntu.com)[http://askubuntu.com/questions/361627/is-there-a-way-to-enable-the-eclipse-global-menu-bar/].
+3. If there is a problem with menu visibility look at [askubuntu.com](http://askubuntu.com/questions/361627/is-there-a-way-to-enable-the-eclipse-global-menu-bar/).
 Need to create ~/.local/share/applications/eclipse.desktop with content similar to
 
     [Desktop Entry]  
     Version=4.0  
     Type=Application  
     Terminal=false  
-    Exec=env UBUNTU_MENUPROXY= java /opt/eclipse/eclipse  
+    Exec=/opt/eclipse/eclipse  
     Name=Eclipse  
-    Comment=Eclipse Multitool IDE  
+    Comment=Eclipse IDE  
     Icon=/opt/eclipse/icon.xpm  
 
-or simply add "env UBUNTU_MENUPROXY=" to line started with "Exec=..." (see above).  
+or simply insert "env UBUNTU_MENUPROXY=\<space\>" to line started with "Exec=...".  
 
 
 ### Github.com
 
 ### Markdown Editor for Eclipse
+
 [Markdown Editor - http://winterwell.com/software/updatesite/](http://www.winterwell.com/software/markdown-editor.php)
 
 ### Perl Markdown Editor for Eclipse
-[Perl Editor and IDE for Eclipse version 0.5.x, stable - http://e-p-i-c.sf.net/updates](http://www.epic-ide.org/) 
+
+[Perl Editor and IDE for Eclipse version 0.5.x, stable - http://e-p-i-c.sf.net/updates](http://www.epic-ide.org/)  
 [Perl Editor and IDE for Eclipse version 0.6.x, testing - http://e-p-i-c.sf.net/updates/testing](http://www.epic-ide.org/)
 
 ### Lua Development Tools
