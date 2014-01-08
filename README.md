@@ -7,10 +7,10 @@
 1. Download JDK from Oracle's site - jdk-VERSION-OS-ARCH.tar.gz.
 2. Unzip archive into destination folder (for example, /opt)
 
-	$ sudo tar -zxvf jdk-VERSION-OS-ARCH.tar.gz -C /opt
-	$ cd /opt/jdk_VERSION
-	$ sudo bash
-	# cp /etc/profile /etc/profile~ 
+    $ sudo tar -zxvf jdk-VERSION-OS-ARCH.tar.gz -C /opt
+    $ cd /opt/jdk_VERSION
+    $ sudo bash
+    # cp /etc/profile /etc/profile~ 
 	# echo "export JAVA_HOME=`pwd`" >> /etc/profile
 	# echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> /etc/profile
 	# exit
