@@ -77,7 +77,14 @@ Checked for GRUB 2.0 and Ubuntu 12.04, 12.10, 13.04, 13.10
 See additional information on [askubuntu.com](http://askubuntu.com/questions/16371/how-do-i-disable-x-at-boot-time-so-that-the-system-boots-in-text-mode)
 
 ### Nvidia Graphics Driver
-1. First way
-    1. Download from Nvidia site 
-    http://ru.download.nvidia.com/XFree86/Linux-x86_64/XXX.YY/NVIDIA-Linux-x86_64-XXX.YY.run 
+1. Install NVidia graphics driver using "System Settings/Software \& Updates"
+2. Exec `sudo nvidia-xconfig`
+3. Edit the file "/etc/X11/xorg.conf"
+    $ cat /etc/X11/xorg.conf  
+    ...  
+    HorizSync 31.0 - 81.0  
+    VertRefresh 56.0 - 76.0  
+    ...  
+4. Restart.
+5. Change resolution.
 
