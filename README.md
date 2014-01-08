@@ -56,6 +56,12 @@ or simply insert "env UBUNTU_MENUPROXY=\<space\>" to line started with "Exec=...
     $ sudo apt-get install g++  
     $ sudo apt-get install qt4-qmake  
     $ sudo apt-get install qt4-default  
+    $ sudo touch /etc/ld.so.conf.d/devel.conf
+    ...
+    Edit devel.conf
+    ...
+    $ cat /etc/ld.so.conf.d/devel.conf
+    /home/user/build/unix/x86/debug
     
 ### Github.com
 
