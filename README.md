@@ -6,7 +6,7 @@
 
 1. Download JDK from Oracle's site - jdk-VERSION-OS-ARCH.tar.gz.
 2. Unzip archive into destination folder (for example, /opt)
-
+    
     $ sudo tar -zxvf jdk-VERSION-OS-ARCH.tar.gz -C /opt  
     $ cd /opt/jdk_VERSION  
     $ sudo bash  
@@ -15,31 +15,31 @@
     \# echo "export PATH=\$PATH:\$JAVA_HOME/bin" >> /etc/profile  
     \# exit  
     $ tail /etc/profile  
-	
+    	
 3. Log out and log in again.
 4. Try java
-
+    
     $ java -version  
     java version "VERSION"  
     Java (TM) SE Runtime Environment (buid ...)  
     ...  
-	
+    
 ### Install Eclipse IDE
 
 1. Download Eclipse IDE (CDT) from eclipse.org
 
 2. Unzip archive into destination folder (for example, /opt)
-
+    
     $ sudo tar -zxvf eclipse-PACKAGE.tar.gz -C /opt  
     $ cd /opt/eclipse  
     $ sudo bash  
     \# echo "export PATH=\$PATH:\`pwd\`" >> /etc/profile  
     \# exit  
     $ tail /etc/profile  
-	
+    
 3. If there is a problem with menu visibility look at [askubuntu.com](http://askubuntu.com/questions/361627/is-there-a-way-to-enable-the-eclipse-global-menu-bar/).
 Need to create ~/.local/share/applications/eclipse.desktop with content similar to
-
+    
     [Desktop Entry]  
     Version=4.0  
     Type=Application  
@@ -48,10 +48,15 @@ Need to create ~/.local/share/applications/eclipse.desktop with content similar 
     Name=Eclipse  
     Comment=Eclipse IDE  
     Icon=/opt/eclipse/icon.xpm  
-
+    
 or simply insert "env UBUNTU_MENUPROXY=\<space\>" to line started with "Exec=...".  
 
-
+### C/C++ compiler, libraries
+    
+    $ sudo apt-get install g++  
+    $ sudo apt-get install qt4-qmake  
+    $ sudo apt-get install qt4-default  
+    
 ### Github.com
 
 ### Markdown Editor for Eclipse
