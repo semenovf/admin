@@ -1,3 +1,9 @@
+### Configuration
+    $ git config --global user.name "User Name"  
+    $ git config --global user.email username@domain.com  
+    $ git config --global core.editor mcedit  
+
+
 ### Create new branch and merge
 1. Add new files and commit changes
     git add -A  
