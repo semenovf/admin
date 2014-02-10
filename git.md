@@ -3,6 +3,10 @@
     $ git config --global user.email username@domain.com  
     $ git config --global core.editor mcedit  
 
+#### Change URL for a remote repository
+`git config remote.<name>.url git@<remote-domain>:<user>/<repo>.git`
+or
+`git config remote.<name>.url https://<user>@<remote.domain>/<user>/<repo>.git`
 
 ### Create new branch and merge
 1. Add new files and commit changes
