@@ -10,23 +10,23 @@
     git commit -a  
 
 2. Create new branch  
-    git branch &lt;branch-name&gt;  
-    git checkout &lt;branch-name&gt;
-or equivalent command `git checkout -b &lt;branch-name&gt;`
+    git branch <branch-name>;  
+    git checkout <branch-name>;
+or equivalent command `git checkout -b <branch-name>`
    
 3. Current branch `git branch`  
 
 4. Status of current branch `git status`
 
-5. `git remote set-head origin &lt;branch-name&gt;`
+5. `git remote set-head origin <branch-name>`
 
 6. Work with new branch
 
 7. Merge 
     git checkout master
-    git merge &lt;branch-name&gt;
+    git merge <branch-name>;
 
-8. Delete branch `git branch -d &lt;branch-name&gt;`
+8. Delete branch `git branch -d <branch-name>`
 
 9. `git remote set-head origin master`
 
