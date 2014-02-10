@@ -8,6 +8,19 @@
 or
 `git config remote.<name>.url https://<user>@<remote.domain>/<user>/<repo>.git`
 
+#### Example of ~/.ssh/config (through proxy using 'corkscrew' and non-standard SSH port: 443)
+    host github.com  
+        user <user>  
+        hostname ssh.github.com  
+        port 443  
+        proxycommand corkscrew localhost 3128 %h %p  
+    
+    host bitbucket.org  
+        user <user>  
+        hostname altssh.bitbucket.org  
+        port 443  
+        proxycommand corkscrew localhost 3128 %h %p  
+
 ### Create new branch and merge
 1. Add new files and commit changes
     git add -A  
