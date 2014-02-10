@@ -21,6 +21,9 @@ or
         port 443  
         proxycommand corkscrew localhost 3128 %h %p  
 
+see [Use the SSH protocol with Bitbucket](https://confluence.atlassian.com/display/BITBUCKET/Use+the+SSH+protocol+with+Bitbucket)  
+and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-over-the-https-port)
+
 ### Create new branch and merge
 1. Add new files and commit changes
     git add -A  
