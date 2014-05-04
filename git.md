@@ -58,3 +58,16 @@ or equivalent command `git checkout -b <branch-name>`
 #### Console  
 2. `git remote rm origin`  
 3. `git remote add origin git@github.com:"yourname"/"projectname".git`  
+
+#### Set up git to pull and push all branches
+    $ git config --add remote.origin.push '+refs/heads/*:refs/heads/*'
+    $ git config --add remote.origin.push '+refs/tags/*:refs/tags/*'
+    
+or directly edit .git/config file to have something like the following:
+
+    [remote "origin"]
+            url = user@example.com:/srv/git/repo.git
+            fetch = +refs/heads/*:refs/remotes/origin/*
+            fetch = +refs/tags/*:refs/tags/*
+            push  = +refs/heads/*:refs/heads/*
+            push  = +refs/tags/*:refs/tags/*
