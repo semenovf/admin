@@ -30,8 +30,9 @@ and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-o
     git commit -a  
 
 2. Create new branch  
-    git branch <branch-name>;  
-    git checkout <branch-name>;
+    git branch <branch-name>  
+    git checkout <branch-name>  
+
 or equivalent command `git checkout -b <branch-name>`
    
 3. Current branch `git branch`  
@@ -43,8 +44,8 @@ or equivalent command `git checkout -b <branch-name>`
 6. Work with new branch
 
 7. Merge 
-    git checkout master
-    git merge <branch-name>;
+    git checkout master  
+    git merge <branch-name>  
 
 8. Delete branch `git branch -d <branch-name>`
 
@@ -59,7 +60,7 @@ or equivalent command `git checkout -b <branch-name>`
 2. `git remote rm origin`  
 3. `git remote add origin git@github.com:"yourname"/"projectname".git`  
 
-#### Set up git to pull and push all branches
+### Set up git to pull and push all branches
     $ git config --add remote.origin.push '+refs/heads/*:refs/heads/*'
     $ git config --add remote.origin.push '+refs/tags/*:refs/tags/*'
     
