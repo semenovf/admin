@@ -25,6 +25,7 @@ see [Use the SSH protocol with Bitbucket](https://confluence.atlassian.com/displ
 and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-over-the-https-port)
 
 ### Create new branch and merge
+
 1. Add new files and commit changes
 
     git add -A  
