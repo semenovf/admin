@@ -30,9 +30,10 @@ and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-o
     git add -A  
     git commit -a  
 
-2. Create new branch  
-    git branch <branch-name> 
-    git checkout <branch-name> 
+2. Create new branch
+
+    git branch <branch-name>  
+    git checkout <branch-name>  
 
 or equivalent command `git checkout -b <branch-name>`
    
