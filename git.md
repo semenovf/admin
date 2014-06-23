@@ -26,12 +26,13 @@ and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-o
 
 ### Create new branch and merge
 1. Add new files and commit changes
-    git add -A  
-    git commit -a  
+
+    git add -A 
+    git commit -a 
 
 2. Create new branch  
-    git branch <branch-name>  
-    git checkout <branch-name>  
+    git branch <branch-name> 
+    git checkout <branch-name> 
 
 or equivalent command `git checkout -b <branch-name>`
    
