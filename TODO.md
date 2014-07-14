@@ -20,3 +20,11 @@
 ### Document Generation
 
 1. [Sphinx (documentation generator)](http://sphinx-doc.org/)
+
+### Hg-Booker
+
+1. [Транзакции](http://gnucash.ru/book/export/html/71)
+
+### C++
+
+1. 
