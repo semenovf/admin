@@ -27,4 +27,7 @@
 
 ### C++
 
-1. 
+1. pfs: testing bytearray::toBytes, test vector compare and other methods, bytearray::substr
+2. cwt-sys: thread storage, thread pool, future.
+3. cwt-sys: conflict crc32.c and zlib/crc32.c (same object files)
+4. cwt-serial: reimplement baud rate mapping
