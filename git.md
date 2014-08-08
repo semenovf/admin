@@ -24,6 +24,22 @@ or
 see [Use the SSH protocol with Bitbucket](https://confluence.atlassian.com/display/BITBUCKET/Use+the+SSH+protocol+with+Bitbucket)  
 and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-over-the-https-port)
 
+### Setup more than one repositories to push
+
+	git remote set-url --add --push origin git://another/repo.git  
+	git remote set-url --add --push origin git://one_more/repo.git  
+
+see [Git - Pushing code to two remotes](http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
+
+### Change the current branch to master in git
+
+	git checkout better_branch  
+	git merge --strategy=ours master    # keep the content of this branch, but record a merge  
+	git checkout master  
+	git merge better_branch             # fast-forward master up to the merge  
+
+see [Change the current branch to master in git](http://stackoverflow.com/questions/2763006/change-the-current-branch-to-master-in-git)
+
 ### Create new branch and merge
 
 1. Add new files and commit changes
