@@ -69,7 +69,7 @@ or simply insert "env UBUNTU_MENUPROXY=\<space\>" to line started with "Exec=...
 
 [Markdown Editor - http://winterwell.com/software/updatesite/](http://www.winterwell.com/software/markdown-editor.php)
 
-### Perl Markdown Editor for Eclipse
+### Perl Editor for Eclipse
 
 [Perl Editor and IDE for Eclipse version 0.5.x, stable - http://e-p-i-c.sf.net/updates](http://www.epic-ide.org/)  
 [Perl Editor and IDE for Eclipse version 0.6.x, testing - http://e-p-i-c.sf.net/updates/testing](http://www.epic-ide.org/)
