@@ -7,7 +7,7 @@
 1. Download JDK from Oracle's site - jdk-VERSION-OS-ARCH.tar.gz.
 2. Unzip archive into destination folder (for example, /opt)
     
-    $ sudo tar -zxvf jdk-VERSION-OS-ARCH.tar.gz -C /opt  
+    $ sudo tar -C /opt -zxvf jdk-VERSION-OS-ARCH.tar.gz  
     $ cd /opt/jdk_VERSION  
     $ sudo bash  
     \# cp /etc/profile /etc/profile~  
@@ -30,7 +30,7 @@
 
 2. Unzip archive into destination folder (for example, /opt)
     
-    $ sudo tar -zxvf eclipse-PACKAGE.tar.gz -C /opt  
+    $ sudo tar -C /opt -zxvf eclipse-PACKAGE.tar.gz  
     $ cd /opt/eclipse  
     $ sudo bash  
     \# echo "export PATH=\$PATH:\`pwd\`" >> /etc/profile  
