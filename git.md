@@ -100,11 +100,11 @@ or directly edit .git/config file to have something like the following:
 
 3. Verify the new upstream repository you've specified for your fork.
 
-    $ git remote -v  
-    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)  
-    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)  
-    upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (fetch)  
-    upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (push)  
+    $ git remote -v
+    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+    upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (fetch)
+    upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (push)
 
 4. Change the current working directory to your local project.
 5. Fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, upstream/master.
