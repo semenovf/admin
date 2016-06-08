@@ -91,3 +91,46 @@ or directly edit .git/config file to have something like the following:
             fetch = +refs/tags/*:refs/tags/*
             push  = +refs/heads/*:refs/heads/*
             push  = +refs/tags/*:refs/tags/*
+
+### Syncing forked submodule with upstream repository
+1. Clone forked repository (if not cloned yet).
+2. Specify a new remote upstream repository that will be synced with the fork.
+
+    $ git remote add upstream https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git  
+
+3. Verify the new upstream repository you've specified for your fork.
+
+    $ git remote -v  
+    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)  
+    origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)  
+    upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (fetch)  
+    upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (push)  
+
+4. Change the current working directory to your local project.
+5. Fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, upstream/master.
+
+    $ git fetch upstream  
+    remote: Counting objects: 75, done.  
+    remote: Compressing objects: 100% (53/53), done.  
+    remote: Total 62 (delta 27), reused 44 (delta 9)  
+    Unpacking objects: 100% (62/62), done.  
+    From https://github.com/ORIG_OWNER/ORIG_REPOSITORY  
+    * [new branch]      master     -> upstream/master  
+    
+6. Check out your fork's local master branch.
+    $ git checkout master  
+    Switched to branch 'master'  
+
+7. Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
+
+    $ git merge upstream/master  
+    Updating 34e91da..16c56ad  
+    Fast-forward  
+    README.md                 |    5 +++--  
+    1 file changed, 3 insertions(+), 2 deletions(-)  
+ 
+8. Change to the submodule directory
+9. Checkout desired branch: `git checkout master`
+10. Update: `git pull`
+11. Get back to project root directory: `cd ..`
+12. Commit changes: `git commit -am "Synced submodule with upstream"`
