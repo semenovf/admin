@@ -35,35 +35,35 @@
   Official Git Repository: [https://github.com/julianstorer/JUCE](https://github.com/julianstorer/JUCE)  
   Initial Release: 2004  
 
-6. [Ultimate++](http://ultimatepp.org)
+6. [Ultimate++](http://ultimatepp.org)  
   Description: C++ cross-platform rapid application development framework  
   Operation System: Cross-platform  
   Mode: ?  
   Official Git Repository: [https://github.com/ultimatepp/mirror](https://github.com/ultimatepp/mirror)  
   Initial Release: 2004  
   
-7. [FLTK](http://www.fltk.org/index.php)
+7. [FLTK](http://www.fltk.org/index.php)  
   Description: Cross-platform C++ GUI toolkit for UNIX®/Linux® (X11), Microsoft® Windows®, and MacOS® X  
   Operation System: Cross-platform  
   Mode: ?  
   Official Git Repository: not found  
   Initial Release: 1998  
   
-8. [CEGUI](http://cegui.org.uk/)
+8. [CEGUI](http://cegui.org.uk/)  
   Description:   
   Operation System:   
   Mode: ?  
   Official Git Repository: [https://bitbucket.org/cegui/](https://bitbucket.org/cegui/)  
   Initial Release:  
 
-9. [gtkmm/GTK+](http://www.gtkmm.org)
+9. [gtkmm/GTK+](http://www.gtkmm.org)  
   Description: Official C++ interface for the popular GUI library GTK+  
   Operation System: Cross-platform  
   Mode: ?  
   Official Git Repository:  
   Initial Release:  
 
-10. [IUP](http://webserver2.tecgraf.puc-rio.br/iup)
+10. [IUP](http://webserver2.tecgraf.puc-rio.br/iup)  
   Description: Multi-platform toolkit for building graphical user interfaces  
   Operation System: Cross-platform  
   Mode: ?  
