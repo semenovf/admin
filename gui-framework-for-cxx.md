@@ -28,7 +28,7 @@
   Official Git Repository: [https://github.com/wjakob/nanogui](https://github.com/wjakob/nanogui)  
   Initial Release:  
 
-5. [JUCE](https://www.juce.com/)
+5. [JUCE](https://www.juce.com/)  
   Description: Open-source cross-platform C++ application framework  
   Operation System: Cross-platform  
   Mode: ?  
