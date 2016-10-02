@@ -39,7 +39,7 @@
   Description: C++ cross-platform rapid application development framework  
   Operation System: Cross-platform  
   Mode: ?  
-  Official Git Repository: not found  
+  Official Git Repository: [https://github.com/ultimatepp/mirror](https://github.com/ultimatepp/mirror)  
   Initial Release: 2004  
   
 7. [FLTK](http://www.fltk.org/index.php)
@@ -48,6 +48,20 @@
   Mode: ?  
   Official Git Repository: not found  
   Initial Release: 1998  
+  
+8. [CEGUI](http://cegui.org.uk/)
+  Description:   
+  Operation System:   
+  Mode: ?  
+  Official Git Repository: [https://bitbucket.org/cegui/](https://bitbucket.org/cegui/)  
+  Initial Release:  
+
+9. [gtkmm/GTK+](http://www.gtkmm.org)
+  Description: Official C++ interface for the popular GUI library GTK+  
+  Operation System: Cross-platform  
+  Mode: ?  
+  Official Git Repository:  
+  Initial Release:  
 
 100. [imgui](https://github.com/ocornut/imgui)  
   Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies  
