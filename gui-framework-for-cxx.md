@@ -3,29 +3,44 @@
 1. [Qt](gt.io)  
   Description: Cross-platform application framework  
   Operation System: Cross-platform  
-  Mode: retained  
+  Mode: Retained  
+  Official Git Repository:  
+  Initial Release: 1995  
 
 2. [wxWidgets](https://www.wxwidgets.org)  
   Description: Cross-Platform GUI Library  
   Operation System: Cross-platform  
-  Mode: retained  
+  Mode: Retained  
+  Official Git Repository: 
+  Initial Release: 1992  
 
 3. [Nana C++](http://nanapro.org)  
   Description: Nana C++ Library - a modern C++ GUI library  
-  Mode: retained  
+  Operation System:  
+  Mode: Retained  
+  Official Git Repository: [https://github.com/cnjinhao/nana](https://github.com/cnjinhao/nana)  
+  Initial Release:  
 
 4. [nanogui](https://github.com/wjakob/nanogui)  
   Description: Minimalistic GUI library for OpenGL  
-  Mode: retained  
+  Operation System:  
+  Mode: Retained  
+  Official Git Repository: [https://github.com/wjakob/nanogui](https://github.com/wjakob/nanogui)  
+  Initial Release:  
 
 5. [JUCE](https://www.juce.com/)
   Description: Open-source cross-platform C++ application framework  
   Operation System: Cross-platform  
   Mode: ?  
+  Official Git Repository: [https://github.com/julianstorer/JUCE](https://github.com/julianstorer/JUCE)  
+  Initial Release: 2004  
 
 5. [imgui](https://github.com/ocornut/imgui)  
   Description: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies  
-  Mode: immediate  
+  Operation System:  
+  Mode: Immediate  
+  Official Git Repository: [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)  
+  Initial Release:  
     
 ## Extra links    
 * [Retained Mode Versus Immediate Mode](https://msdn.microsoft.com/library/windows/desktop/ff684178(v=vs.85).aspx)  
