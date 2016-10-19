@@ -14,6 +14,9 @@
     sudo update-rc.d service-name remove
     sudo update-rc.d service-name stop levels .
 
+    # Disable service
+    echo manual | sudo tee /etc/init/SERVICE.override 
+
 where service-name is a name of script /etc/init.d directory.
 
 3.2 Upstart (prior to version 15.04)
