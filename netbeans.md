@@ -8,13 +8,13 @@ After I did some Google search, I learned a few tips to set the Netbeans UI lang
 
 Add "--locale en:US" at the end of Netbeans startup command. 
 
-"C:\\Program Files\\NetBeans 6.0.1\\bin\\netbeans.exe"  --locale en:US 
+"C:\\Program Files\\NetBeans x.y.z\\bin\\netbeans.exe"  --locale en:US 
 
 2. Permanent Solution
 
 Go to Netbeans installation directory, for example,
 
-C:\\Program Files\\NetBeans 6.0.1\\etc
+C:\\Program Files\\NetBeans x.y.z\\etc
 
 Open "netbeans.conf" and find netbeans default option line
 
