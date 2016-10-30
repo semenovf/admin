@@ -4,13 +4,13 @@ Netbeans automatically uses the Windows system default language as the default u
 
 After I did some Google search, I learned a few tips to set the Netbeans UI language.
 
-1. Temporary Solution
+####1. Temporary Solution
 
 Add "--locale en:US" at the end of Netbeans startup command. 
 
 "C:\\Program Files\\NetBeans x.y.z\\bin\\netbeans.exe"  --locale en:US 
 
-2. Permanent Solution
+####2. Permanent Solution
 
 Go to Netbeans installation directory, for example,
 
