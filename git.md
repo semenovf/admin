@@ -128,6 +128,8 @@ or directly edit .git/config file to have something like the following:
     Fast-forward  
     README.md                 |    5 +++--  
     1 file changed, 3 insertions(+), 2 deletions(-)  
+    
+    $ git push origin master  
  
 8. Change to the submodule directory
 9. Checkout desired branch: `git checkout master`
