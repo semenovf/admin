@@ -64,6 +64,25 @@ or simply insert "env UBUNTU_MENUPROXY=\<space\>" to line started with "Exec=...
     $ cat /etc/ld.so.conf.d/devel.conf
     /home/user/build/unix/x86/debug
     
+#### Install alternatives to C/C++ compiler (Ubuntu)
+
+    $ # Illustrated on gcc version 4.9 
+    
+    $ # Download and install packages
+    $ sudo apt-get install gcc-4.9 g++-4.9
+    
+    $ # Install alternatives
+    $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 10
+    $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.9 10
+    $ sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 20
+    $ sudo update-alternatives --set cc /usr/bin/gcc
+    $ sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30
+    $ sudo update-alternatives --set c++ /usr/bin/g++
+    
+    $ # Configure alternatives
+    $ sudo update-alternatives --config gcc
+    $ sudo update-alternatives --config g++
+    
 ### Github.com
 
 ### Markdown Editor for Eclipse
