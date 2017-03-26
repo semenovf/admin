@@ -2,12 +2,13 @@
     `dpkg -l | grep "^ii"| awk ' {print $2} ' | xargs sudo apt-get -y install --reinstall --download-only`  
   See [How to obtain installed package files?](http://askubuntu.com/questions/86358/how-to-obtain-installed-package-files)
 
-2 Q. While `sudo apt-get update` warning occurred:
+2 Q. While `sudo apt-get update` warning occurred:  
    W: GPG error: http://path/to/repo wily InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY <HEX-value>  
    A. Execute `sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com <HEX-value>` to fix this.
 
 3 Disable/remove/enable services
-3.1 SysVinit scripts 
+
+3.1 SysVinit scripts
 
     $ sudo update-rc.d service-name disable
     $ sudo update-rc.d service-name enable
@@ -75,3 +76,16 @@ where service-name is a name of script /etc/init.d directory.
     
     $ # Modify value for `*media-handling automount-open' key  
     $ gsettings set org.gnome.desktop.media-handling automount-open false  
+
+5 Install Kodi (ex-XBMC) 16.1 (NOT Version 17) on Ubuntu 14(16)
+
+[Want to install Kodi 16.1 on Ubuntu 16.04, NOT Version 17](http://askubuntu.com/questions/883850/want-to-install-kodi-16-1-on-ubuntu-16-04-not-version-17?answertab=oldest#tab-top)
+
+    $ sudo apt install ppa-purge  
+    $ sudo ppa-purge ppa:team-xbmc/ppa  
+    $ # Add the PPA for the old version and install  
+    $ sudo apt-add-repository ppa:team-xbmc/kodi-old  
+    $ sudo apt update  
+    $ sudo apt install kodi  
+    
+    
