@@ -136,3 +136,6 @@ or directly edit .git/config file to have something like the following:
 10. Update: `git pull`
 11. Get back to project root directory: `cd ..`
 12. Commit changes: `git commit -am "Synced submodule with upstream"`
+
+### How to create and apply a patch with Git
+[How to create and apply a patch with Git](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
