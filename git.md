@@ -70,6 +70,9 @@ or equivalent command `git checkout -b <branch-name>`
 
 9. `git remote set-head origin master`
 
+### Update a specific submodule, without updating any other submodules  
+    $ git submodule update --init -- <specific relative path to submodule>
+
 ### Rename repository on github.com
 
 #### Github.com  
