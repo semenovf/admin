@@ -121,7 +121,9 @@ or directly edit .git/config file to have something like the following:
     * [new branch]      master     -> upstream/master  
     
 6. Check out your fork's local master branch.
-    $ git checkout master  
+
+    `$ git checkout master`
+    
     Switched to branch 'master'  
 
 7. Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
