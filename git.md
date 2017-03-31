@@ -1,5 +1,5 @@
 # Configuration
-```
+```bash
 $ git config --global user.name "User Name"  
 $ git config --global user.email username@domain.com  
 $ git config --global core.editor mcedit  
@@ -10,7 +10,7 @@ or
 `git config remote.<name>.url https://<user>@<remote.domain>/<user>/<repo>.git`
 
 ## Example of ~/.ssh/config (through proxy using 'corkscrew' and non-standard SSH port: 443)
-```
+```bash
 host github.com
 user <user>
 hostname ssh.github.com
@@ -28,14 +28,14 @@ see [Use the SSH protocol with Bitbucket](https://confluence.atlassian.com/displ
 and [Using SSH over the HTTPS port](https://help.github.com/articles/using-ssh-over-the-https-port)
 
 # Setup more than one repositories to push
-```
+```bash
 git remote set-url --add --push origin git://another/repo.git
 git remote set-url --add --push origin git://one_more/repo.git
 ```
 see [Git - Pushing code to two remotes](http://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes)
 
 # Change the current branch to master in git
-```
+```bash
 git checkout better_branch
 git merge --strategy=ours master    # keep the content of this branch, but record a merge
 git checkout master
@@ -46,12 +46,12 @@ see [Change the current branch to master in git](http://stackoverflow.com/questi
 # Create new branch and merge
 
 1. Add new files and commit changes
-```
+```bash
 $ git add -A
 $ git commit -a
 ```
 2. Create new branch
-```
+```bash
 $ git branch <branch-name>  
 $ git checkout <branch-name>  
 ```
@@ -66,7 +66,7 @@ or equivalent command `git checkout -b <branch-name>`
 6. Work with new branch
 
 7. Merge
-```
+```bash
 $ git checkout master
 $ git merge <branch-name>
 ```
@@ -75,7 +75,7 @@ $ git merge <branch-name>
 9. `git remote set-head origin master`
 
 # Update a specific submodule, without updating any other submodules  
-```
+```bash
     $ git submodule update --init -- <specific relative path to submodule>
 ```
 
@@ -86,19 +86,20 @@ $ git merge <branch-name>
 1. Settings->Rename
 
 ## Console
-
-2. `git remote rm origin`  
-3. `git remote add origin git@github.com:"yourname"/"projectname".git`  
+```bash
+$ git remote rm origin
+$ git remote add origin git@github.com:"yourname"/"projectname".git
+```
 
 ## Set up git to pull and push all branches
-```
+```bash
     $ git config --add remote.origin.push '+refs/heads/*:refs/heads/*'
     $ git config --add remote.origin.push '+refs/tags/*:refs/tags/*'
 ```    
 
 or directly edit .git/config file to have something like the following:
 
-```
+```bash
 [remote "origin"]
     url = user@example.com:/srv/git/repo.git
     fetch = +refs/heads/*:refs/remotes/origin/*
@@ -111,13 +112,13 @@ or directly edit .git/config file to have something like the following:
 1. Clone forked repository (if not cloned yet).
 2. Specify a new remote upstream repository that will be synced with the fork.
 
-```
+```bash
 $ git remote add upstream https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git
 ```
 
 3. Verify the new upstream repository you've specified for your fork.
 
-```
+```bash
 $ git remote -v  
 origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)  
 origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)  
@@ -127,7 +128,7 @@ upstream  https://github.com/ORIG_OWNER/ORIG_REPOSITORY.git (push)
 
 4. Fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, upstream/master.
 
-```
+```bash
 $ git fetch upstream
 remote: Counting objects: 75, done.
 remote: Compressing objects: 100% (53/53), done.
@@ -138,14 +139,14 @@ From https://github.com/ORIG_OWNER/ORIG_REPOSITORY
 ```
 5. Check out your fork's local master branch.
 
-```
+```bash
 $ git checkout master
 ``` 
 
 Switched to branch 'master'  
 
 6. Merge the changes from upstream/master into your local master branch. This brings your fork's master branch into sync with the upstream repository, without losing your local changes.
-```
+```bash
 $ git merge upstream/master
 Updating 34e91da..16c56ad
 Fast-forward
