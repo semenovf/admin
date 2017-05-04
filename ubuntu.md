@@ -98,4 +98,5 @@ where service-name is a name of script /etc/init.d directory.
     $ sudo apt update  
     $ sudo apt install kodi  
     
-    
+# Modify $PATH globally
+Edit /etc/environment
