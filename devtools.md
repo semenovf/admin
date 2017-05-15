@@ -8,3 +8,7 @@
 ## Online development tools
 
 1. [Compiler Explorer](https://gcc.godbolt.org/)
+
+## Other tools
+
+1. [cloc - Count, and compute differences of, lines of source code and comments](http://cloc.sourceforge.net)
