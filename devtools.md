@@ -14,3 +14,4 @@
 ## Other tools
 
 1. [cloc - Count, and compute differences of, lines of source code and comments](http://cloc.sourceforge.net)
+2. gperf - generate a perfect hash function from a key set
