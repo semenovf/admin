@@ -6,6 +6,8 @@
 2. [Bazel](https://github.com/bazelbuild/bazel)
 3. [Buck (based on python)](https://buckbuild.com)
 4. [The Meson Build system (based on python)](http://mesonbuild.com/)
+5. [Boost.Build](http://www.boost.org/build/)
+6. [tup](http://gittup.org/tup/)
 
 ## Online development tools
 
