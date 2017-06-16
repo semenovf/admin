@@ -51,12 +51,13 @@ Need to create ~/.local/share/applications/eclipse.desktop with content similar 
     
 or simply insert "env UBUNTU_MENUPROXY=\<space\>" to line started with "Exec=...".  
 
-### C/C++ compiler, libraries
+### C/C++ compiler, libraries, manuals
     
     $ sudo apt-get install g++  
     $ sudo apt-get install qt4-qmake  
     $ sudo apt-get install qt4-default  
     $ sudo apt-get install qt4-dev-tools # optional (installs Qt Designer, Assistant)
+    $ sudo apt-get install manpages-posix manpages-posix-dev
     $ sudo touch /etc/ld.so.conf.d/devel.conf
     ...
     Edit devel.conf
