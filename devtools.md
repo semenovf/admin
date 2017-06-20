@@ -2,13 +2,14 @@
 
 ## Build systems
 
-1. [Premake5 (based on lua)](https://github.com/premake/premake-core)
+1. [Premake5 (C++, Lua)](https://github.com/premake/premake-core)
 2. [Bazel](https://github.com/bazelbuild/bazel)
-3. [Buck (based on python)](https://buckbuild.com)
+3. [Buck (Python)](https://buckbuild.com)
 4. [The Meson Build system (based on python)](http://mesonbuild.com/)
 5. [Boost.Build](http://www.boost.org/build/)
 6. [tup](http://gittup.org/tup/)
-7. [maiken](https://github.com/Dekken/maiken)
+7. [maiken (C++14, YAML)](https://github.com/Dekken/maiken)
+8. [aimake (Perl)](https://github.com/aaashun/aimake)
 
 ## Online development tools
 
