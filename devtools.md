@@ -8,6 +8,7 @@
 4. [The Meson Build system (based on python)](http://mesonbuild.com/)
 5. [Boost.Build](http://www.boost.org/build/)
 6. [tup](http://gittup.org/tup/)
+7. [maiken](https://github.com/Dekken/maiken)
 
 ## Online development tools
 
