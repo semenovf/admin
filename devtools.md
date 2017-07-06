@@ -11,6 +11,12 @@
 7. [maiken (C++14, YAML)](https://github.com/Dekken/maiken)
 8. [aimake (Perl)](https://github.com/aaashun/aimake)
 
+## Static code analyzers
+
+1. [PVS-Studio](https://www.viva64.com/en/pvs-studio/)
+
+[Review of contemporary C/C++ static code analyzers](https://hownot2code.com/2017/06/29/review-of-contemporary-cc-static-code-analyzers/)
+
 ## Online development tools
 
 1. [Compiler Explorer](https://gcc.godbolt.org/)
