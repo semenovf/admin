@@ -25,3 +25,7 @@
 
 1. [cloc - Count, and compute differences of, lines of source code and comments](http://cloc.sourceforge.net)
 2. gperf - generate a perfect hash function from a key set
+
+## Usage Examples
+
+1. [I decide to do a simple project using some of the C++14 features and ...](https://juan-medina.com/2017/07/01/moderncppci/)
