@@ -17,6 +17,10 @@
 
 [Review of contemporary C/C++ static code analyzers](https://hownot2code.com/2017/06/29/review-of-contemporary-cc-static-code-analyzers/)
 
+## Package manager
+
+1. [Buckaroo](http://buckaroo.pm/)
+
 ## Online development tools
 
 1. [Compiler Explorer](https://gcc.godbolt.org/)
