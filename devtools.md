@@ -33,3 +33,9 @@
 ## Usage Examples
 
 1. [I decide to do a simple project using some of the C++14 features and ...](https://juan-medina.com/2017/07/01/moderncppci/)
+
+## Clang Tooling
+
+1. [Clang Tidy]()
+2. [Bear](https://github.com/rizsotto/Bear) - is a tool that generates a compilation database for clang tooling.  
+   [Clang Tidy, part 2: Integrate qmake and other build systems using Bear](https://www.kdab.com/clang-tidy-part-2-integrate-qmake-and-other-build-systems-using-bear/).
