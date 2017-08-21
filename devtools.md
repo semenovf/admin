@@ -10,6 +10,7 @@
 6. [tup](http://gittup.org/tup/)
 7. [maiken (C++14, YAML)](https://github.com/Dekken/maiken)
 8. [aimake (Perl)](https://github.com/aaashun/aimake)
+9. [GENie (Lua)](https://github.com/bkaradzic/GENie)
 
 ## Static code analyzers
 
