@@ -100,3 +100,9 @@ where service-name is a name of script /etc/init.d directory.
     
 # Modify $PATH globally
 Edit /etc/environment
+
+# How to create desktop launcher
+```sh
+$ sudo apt install --no-install-recommends gnome-panel
+$ gnome-desktop-item-edit --create-new ~/Desktop
+```
