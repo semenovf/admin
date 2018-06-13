@@ -157,3 +157,13 @@ $ git push origin master
 ```
 ### How to create and apply a patch with Git
 [How to create and apply a patch with Git](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
+
+### [Find and restore a deleted file in a Git repository](https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository)
+```bash
+$ git rev-list -n 1 HEAD -- <file_path>
+$ git checkout <deleting_commit>^ -- <file_path>
+```
+or
+```bash
+$ git checkout $(git rev-list -n 1 HEAD -- "$file")^ -- "$file"
+```
