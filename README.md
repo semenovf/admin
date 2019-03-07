@@ -7,12 +7,6 @@
     $ sudo apt-get install qt4-default  
     $ sudo apt-get install qt4-dev-tools # optional (installs Qt Designer, Assistant)
     $ sudo apt-get install manpages-posix manpages-posix-dev
-    $ sudo touch /etc/ld.so.conf.d/devel.conf
-    ...
-    Edit devel.conf
-    ...
-    $ cat /etc/ld.so.conf.d/devel.conf
-    /home/user/build/unix/x86/debug
     
 ### Install alternatives to C/C++ compiler (Ubuntu)
 
