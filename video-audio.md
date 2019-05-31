@@ -1,6 +1,6 @@
 ### Resources for video encoding/decoding, streams, protocols
 
-[Lei Xiaohua's learning resource about video/audio technics](https://leixiaohua1020.github.io)
+1. [Lei Xiaohua's learning resource about video/audio technics](https://leixiaohua1020.github.io)
 * Simplest ffmpeg player
 * Simplest ffmpeg audio player
 * Simplest ffmpeg pic encoder
