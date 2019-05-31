@@ -24,17 +24,15 @@
 * [and others ...](https://www.videolan.org)
 
 3. Stackoverflow.com
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [FFMPEG Stream series of pictures over network](https://stackoverflow.com/questions/32444176/ffmpeg-stream-series-of-pictures-over-network)
+* [ffmpeg H264 Encode Frame at a time for network streaming](https://stackoverflow.com/questions/42017596/ffmpeg-h264-encode-frame-at-a-time-for-network-streaming?rq=1)
+* [ffmpeg/c++ Encode additional information of video frame with ffmpeg](https://stackoverflow.com/questions/48456247/ffmpeg-c-encode-additional-information-of-video-frame-with-ffmpeg)
+* [How to encode a video from several images generated in a C++ program without writing the separate frame images to disk?](https://stackoverflow.com/questions/34511312/how-to-encode-a-video-from-several-images-generated-in-a-c-program-without-wri)
 
 4. [Encode video frame by frame in C++ using FFmpeg](https://github.com/apc-llc/moviemaker-cpp)
 
 5. RTP / RTSP
+
 5.1 [QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
 
 6. [Qt Media Encoding Library](https://github.com/kibsoft/QtMEL)
