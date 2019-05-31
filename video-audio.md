@@ -22,3 +22,30 @@
 * [multicat](https://www.videolan.org/projects/multicat.html)
 * [x264 - application for encoding video streams into the H.264/MPEG-4 AVC format](https://www.videolan.org/developers/x264.html)
 * [and others ...](https://www.videolan.org)
+
+3. Stackoverflow.com
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+4. [Encode video frame by frame in C++ using FFmpeg](https://github.com/apc-llc/moviemaker-cpp)
+
+5. RTP / RTSP
+5.1 [QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
+
+6. [Qt Media Encoding Library](https://github.com/kibsoft/QtMEL)
+
+  Qt Media Encoding Library is a Qt library that wraps Libav, OpenCV and RtAudio libraries and allows you easily grab your desktop screen, your cameras, your audio input devices and finally encode audio/video streams.
+
+  Key features:
+
+  * desktop screen capture with variable frame rate
+  * web-cameras capture with variable frame rate
+  * changing the image source on the fly (screen<->camera) while recording a video
+  * audio input devices capture
+  * video encoding with variable and fixed frame rate
+* audio encoding
