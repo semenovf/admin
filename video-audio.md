@@ -32,10 +32,9 @@
 4. [Encode video frame by frame in C++ using FFmpeg](https://github.com/apc-llc/moviemaker-cpp)
 
 5. RTP / RTSP
-
-[QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
-[RTP library in C](https://github.com/Akagi201/rtp)
-[JRTPLIB is an object-oriented RTP library written in C++](http://research.edm.uhasselt.be/jori/page/CS/Jrtplib.html), [git](https://github.com/j0r1/JRTPLIB)
+* [QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
+* [RTP library in C](https://github.com/Akagi201/rtp)
+* [JRTPLIB is an object-oriented RTP library written in C++](http://research.edm.uhasselt.be/jori/page/CS/Jrtplib.html), [git](https://github.com/j0r1/JRTPLIB)
 
 6. [Qt Media Encoding Library](https://github.com/kibsoft/QtMEL)
 
