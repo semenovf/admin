@@ -33,7 +33,9 @@
 
 5. RTP / RTSP
 
-5.1 [QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
+[QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
+[RTP library in C](https://github.com/Akagi201/rtp)
+[JRTPLIB is an object-oriented RTP library written in C++](http://research.edm.uhasselt.be/jori/page/CS/Jrtplib.html), [git](https://github.com/j0r1/JRTPLIB)
 
 6. [Qt Media Encoding Library](https://github.com/kibsoft/QtMEL)
 
