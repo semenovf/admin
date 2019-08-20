@@ -31,11 +31,13 @@
 
 4. [Encode video frame by frame in C++ using FFmpeg](https://github.com/apc-llc/moviemaker-cpp)
 
-5. RTP / RTSP
+5. RTP / RTSP / SDP
 * [QT-RTSP-DEMO](https://github.com/shujaatak/Qt-FFmpeg-RTSP-Demo)
 * [RTP library in C](https://github.com/Akagi201/rtp)
 * [JRTPLIB is an object-oriented RTP library written in C++](http://research.edm.uhasselt.be/jori/page/CS/Jrtplib.html), [git](https://github.com/j0r1/JRTPLIB)
 * [Lightweight RTSP/RTP streaming media server](https://github.com/revmischa/rtsp-server)
+* [RTP: A Transport Protocol for Real-Time Applications](tools.ietf.org/html/rfc3550)
+* [SDP: Session Description Protocol](tools.ietf.org/html/rfc4566)
 
 6. [Qt Media Encoding Library](https://github.com/kibsoft/QtMEL)
 
@@ -49,3 +51,28 @@
   * audio input devices capture
   * video encoding with variable and fixed frame rate
 * audio encoding
+
+### Unsorted resources
+* [ffmpeg Documentation](https://ffmpeg.org/ffmpeg.html)
+* [ffplay Documentation](https://ffmpeg.org/ffplay.html)
+* [FFmpeg Protocols Documentation](https://www.ffmpeg.org/ffmpeg-protocols.html)
+* [FFmpeg 4.1 API Documentation](https://ffmpeg.org/doxygen/4.1/)
+* [FFmpeg Wiki](https://trac.ffmpeg.org/wiki)
+* [FFmpeg Wiki - Creating Multiple Outputs](https://trac.ffmpeg.org/wiki/Creating%20multiple%20outputs)
+* [FFmpeg Wiki - ffserver](https://trac.ffmpeg.org/wiki/ffserver)
+* [FFmpeg Wiki - StreamingGuide](https://trac.ffmpeg.org/wiki/StreamingGuide)
+* [FFmpeg Wiki - H.264 Video Encoding Guide](https://trac.ffmpeg.org/wiki/Encode/H.264)
+* [FFmpeg – the swiss army knife of Internet Streaming – part V](https://sonnati.wordpress.com/2012/07/02/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-v/)
+* [An ffmpeg and SDL Tutorial](http://dranger.com/ffmpeg/tutorial01.html)
+* [Multimedia Technology Basics: FourCCs, AVI Codecs, ASF Codecs, WAV Codecs, MOV Codecs, RM Codecs, YUV Codecs, RGB Codecs, Lossy and Lossless Codecs and More](https://multimedia.cx/mmbasics.txt)
+* [Using ffmpeg to generate RTSP from webcam](https://stackoverflow.com/questions/33800086/using-ffmpeg-to-generate-rtsp-from-webcam)
+* [RTSP-Server - Lightweight RTSP/RTP streaming media server](https://github.com/revmischa/rtsp-server)
+* [Видеоплеер на базе ffmpeg](https://habr.com/ru/post/137793/)
+* [Персональные компьютеры и телевидение](https://web.archive.org/web/20120305043944/http://rus.625-net.ru/625/1996/02/pc_tv.htm)
+* [errors when decode H.264 frames using ffmpeg](https://stackoverflow.com/questions/15005436/errors-when-decode-h-264-frames-using-ffmpeg)
+* [YUV pixel formats](http://www.fourcc.org/yuv.php)
+* [What steps are needed to stream RTSP from FFmpeg?](https://stackoverflow.com/questions/26999595/what-steps-are-needed-to-stream-rtsp-from-ffmpeg/27007456)
+* [What is the correct way to fix keyframes in FFmpeg for DASH?](https://superuser.com/questions/908280/what-is-the-correct-way-to-fix-keyframes-in-ffmpeg-for-dash/908706)
+* [Is there anyone who can success real time streaming with ffserver?](https://stackoverflow.com/questions/37403282/is-there-anyone-who-can-success-real-time-streaming-with-ffserver)
+* [Live video streaming with ffmpeg and ffserver](http://www.budthapa.pro/2017/05/live-video-streaming-with-ffmpeg-and.html)
+* [Захват видео с сетевых камер, часть 2](https://habr.com/ru/post/117735/)
