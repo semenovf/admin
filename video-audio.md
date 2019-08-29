@@ -38,6 +38,7 @@
 * [Lightweight RTSP/RTP streaming media server](https://github.com/revmischa/rtsp-server)
 * [RTP: A Transport Protocol for Real-Time Applications](tools.ietf.org/html/rfc3550)
 * [SDP: Session Description Protocol](tools.ietf.org/html/rfc4566)
+* [RTSP/RTP Streaming Server Hello World](https://www.medialan.de/usecase0001.html)
 
 6. [Qt Media Encoding Library](https://github.com/kibsoft/QtMEL)
 
@@ -64,6 +65,8 @@
 * [FFmpeg Wiki - H.264 Video Encoding Guide](https://trac.ffmpeg.org/wiki/Encode/H.264)
 * [FFmpeg – the swiss army knife of Internet Streaming – part V](https://sonnati.wordpress.com/2012/07/02/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-v/)
 * [FFmpeg практика аппаратного декодирования DXVA2](https://habr.com/ru/post/461735/)
+* [Видеоплеер на базе ffmpeg](https://habr.com/en/post/137793/)
+* [Доработка видеоплеера ffmpeg](https://habr.com/ru/post/138426/)
 * [An ffmpeg and SDL Tutorial](http://dranger.com/ffmpeg/tutorial01.html)
 * [Multimedia Technology Basics: FourCCs, AVI Codecs, ASF Codecs, WAV Codecs, MOV Codecs, RM Codecs, YUV Codecs, RGB Codecs, Lossy and Lossless Codecs and More](https://multimedia.cx/mmbasics.txt)
 * [Using ffmpeg to generate RTSP from webcam](https://stackoverflow.com/questions/33800086/using-ffmpeg-to-generate-rtsp-from-webcam)
@@ -77,3 +80,5 @@
 * [Is there anyone who can success real time streaming with ffserver?](https://stackoverflow.com/questions/37403282/is-there-anyone-who-can-success-real-time-streaming-with-ffserver)
 * [Live video streaming with ffmpeg and ffserver](http://www.budthapa.pro/2017/05/live-video-streaming-with-ffmpeg-and.html)
 * [Захват видео с сетевых камер, часть 2](https://habr.com/ru/post/117735/)
+* [Tutorial: Simple Media Engine](https://doc.qt.io/archives/qtextended4.4/ffmpeg.html)
+* [Использование библиотек FFmpeg в QMdiSubWindow](http://www.cyberforum.ru/qt/thread2209563.html)
