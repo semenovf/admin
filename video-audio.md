@@ -63,6 +63,7 @@
 * [FFmpeg Wiki - StreamingGuide](https://trac.ffmpeg.org/wiki/StreamingGuide)
 * [FFmpeg Wiki - H.264 Video Encoding Guide](https://trac.ffmpeg.org/wiki/Encode/H.264)
 * [FFmpeg – the swiss army knife of Internet Streaming – part V](https://sonnati.wordpress.com/2012/07/02/ffmpeg-the-swiss-army-knife-of-internet-streaming-part-v/)
+* [FFmpeg практика аппаратного декодирования DXVA2](https://habr.com/ru/post/461735/)
 * [An ffmpeg and SDL Tutorial](http://dranger.com/ffmpeg/tutorial01.html)
 * [Multimedia Technology Basics: FourCCs, AVI Codecs, ASF Codecs, WAV Codecs, MOV Codecs, RM Codecs, YUV Codecs, RGB Codecs, Lossy and Lossless Codecs and More](https://multimedia.cx/mmbasics.txt)
 * [Using ffmpeg to generate RTSP from webcam](https://stackoverflow.com/questions/33800086/using-ffmpeg-to-generate-rtsp-from-webcam)
