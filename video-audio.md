@@ -82,3 +82,4 @@
 * [Захват видео с сетевых камер, часть 2](https://habr.com/ru/post/117735/)
 * [Tutorial: Simple Media Engine](https://doc.qt.io/archives/qtextended4.4/ffmpeg.html)
 * [Использование библиотек FFmpeg в QMdiSubWindow](http://www.cyberforum.ru/qt/thread2209563.html)
+* [libvdpau - API VDPAU (Video Decode and Presentation)](https://gitlab.freedesktop.org/vdpau/libvdpau/)
