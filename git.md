@@ -180,3 +180,6 @@ Original [(https://stackoverflow.com/a/1260982/1033581)](https://stackoverflow.c
 7. Delete the now untracked submodule files
 8. rm -rf path_to_submodule
 ```
+# References
+1. [Git изнутри и на практике](https://habr.com/ru/company/oleg-bunin/blog/468177/)
+1. [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/) ([Перевод](https://habr.com/ru/post/468205/))
