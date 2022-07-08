@@ -180,6 +180,18 @@ Original [(https://stackoverflow.com/a/1260982/1033581)](https://stackoverflow.c
 7. Delete the now untracked submodule files
 8. rm -rf path_to_submodule
 ```
+[How do I remove a submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
+```
+# Remove the submodule entry from .git/config
+git submodule deinit -f path/to/submodule
+
+# Remove the submodule directory from the superproject's .git/modules directory
+rm -rf .git/modules/path/to/submodule
+
+# Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule
+git rm -f path/to/submodule
+```
+
 # References
 1. [Git изнутри и на практике](https://habr.com/ru/company/oleg-bunin/blog/468177/)
 1. [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/) ([Перевод](https://habr.com/ru/post/468205/))
