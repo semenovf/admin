@@ -191,6 +191,30 @@ rm -rf .git/modules/path/to/submodule
 # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule
 git rm -f path/to/submodule
 ```
+# Changing author/email for many commits
+
+[How can I change the author name / email of a commit?](https://www.git-tower.com/learn/git/faq/change-author-name-email)
+
+```sh
+$ git filter-branch --env-filter '
+WRONG_EMAIL="wrong@example.com"
+NEW_NAME="New Name Value"
+NEW_EMAIL="correct@example.com"
+
+if [ "$GIT_COMMITTER_EMAIL" = "$WRONG_EMAIL" ]
+then
+    export GIT_COMMITTER_NAME="$NEW_NAME"
+    export GIT_COMMITTER_EMAIL="$NEW_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" = "$WRONG_EMAIL" ]
+then
+    export GIT_AUTHOR_NAME="$NEW_NAME"
+    export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+
+$ git push --force --tags origin 'refs/heads/*'
+```
 
 # References
 1. [Git изнутри и на практике](https://habr.com/ru/company/oleg-bunin/blog/468177/)
