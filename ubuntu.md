@@ -1,3 +1,9 @@
+# Switching language by Alt + Shift (was useful for Ubuntu 22.04)
+```sh
+$ gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Shift>Alt_L']"
+$ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Alt>Shift_L']"
+```
+
 # Check Ubuntu version
 ```sh
 $ lsb_release -a
